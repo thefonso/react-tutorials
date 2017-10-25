@@ -4,7 +4,11 @@
 3. *NPM run dev*
 4. Navigate to localhost:8080
 
+## Time stamps from YouTube video
 
+- making routes
+-  build a link
+- 10:30 Buttons
 ### Resources
 
 - [react-router (note: v2.0 includes history module)](https://github.com/ReactTraining/react-router)
