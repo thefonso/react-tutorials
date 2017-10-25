@@ -5,3 +5,7 @@
 4. Navigate to localhost:8080
 
 
+### Resources
+
+- [react-router (note: v2.0 includes history module)](https://github.com/ReactTraining/react-router)
+- [bootstrap-without-jquery](https://github.com/tagawa/bootstrap-without-jquery)
