@@ -6,6 +6,8 @@ import Footer from "./Footer"
 export default class Layout extends React.Component {
     // state gets handles in three ways
     // state    (will use this minimally)
+    //          "state" gets used ONLY if change is specific to THIS component
+    //          else use "props"
     // props    (will use this most often)
     // context  (advanced feature)
     // here we have an example of "state"
@@ -15,18 +17,13 @@ export default class Layout extends React.Component {
     // see this working by...
     // Chrome hit "ESC"
     // check on "paint flashing"
-    constructor (){
-        super();
-        this.state = {name: "fonso"};
-    }
+
     render() {
-        setTimeout(() => {
-            this.setState({name: "Bob"});
-        }, 1000);
+        const title = "Welcome Alfonso!"; //creating prop on line 26. value gets passed to Header.js
+
         return(
             <div>
-                {this.state.name}
-                <Header />
+                <Header title={title} />
                 <Footer />
             </div>
         );
