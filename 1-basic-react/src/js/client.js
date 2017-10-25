@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 
 class Layout extends React.Component {
-    // example of invoking constructor methods
+    // video 2 completed: example of invoking constructor methods
     constructor(){
         super();
         this.name = "fonso"
