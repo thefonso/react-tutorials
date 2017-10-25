@@ -4,6 +4,9 @@
 3. *NPM run dev*
 4. Navigate to localhost:8080
 
+(optional) generate minified file from webpack.config.js run...
+5. webpack
+
 
 
 This content is inspired by the work of [willrstern](https://github.com/learncodeacademy/react-js-tutorials)
