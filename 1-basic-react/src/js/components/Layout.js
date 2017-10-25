@@ -18,12 +18,22 @@ export default class Layout extends React.Component {
     // Chrome hit "ESC"
     // check on "paint flashing"
 
+    constructor(){
+        super();
+        this.state = {
+            title: "Welcome",
+        };
+    }
+
     render() {
-        const title = "Welcome Alfonso!"; //creating prop on line 26. value gets passed to Header.js
+        setTimeout(() => {
+            this.setState({title: "Welcome Fonso"})
+        }, 2000);
 
         return(
             <div>
-                <Header title={title} />
+                <Header title={this.state.title} />
+                <Header title={"Other Title"} />
                 <Footer />
             </div>
         );
