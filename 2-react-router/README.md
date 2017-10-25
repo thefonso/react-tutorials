@@ -9,7 +9,9 @@
 - making routes
 -  build a link
 - 10:30 Buttons
+
 ### Resources
 
 - [react-router (note: v2.0 includes history module)](https://github.com/ReactTraining/react-router)
 - [bootstrap-without-jquery](https://github.com/tagawa/bootstrap-without-jquery)
+- Shoutout to Augusto and Matthew Kosloski for route related fixes

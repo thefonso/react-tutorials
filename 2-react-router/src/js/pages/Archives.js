@@ -1,10 +1,15 @@
 import React from "react";
 
+
 export default class Archives extends React.Component {
     render() {
-        console.log(this.props);
+        const {query} = this.props.location;
+        const {date, filter} = query;
         return (
-            <h1>Archives ({this.props.params.article})</h1>
+            <div>
+                <h1>Archives ({this.props.params.article})</h1>
+                <h4>date: {date}, filter: {filter}</h4>
+            </div>
         );
     }
 }
