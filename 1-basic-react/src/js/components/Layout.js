@@ -1,15 +1,15 @@
 import React from "react";
 
-export default class Layout extends React.Component {
-    // example of invoking constructor methods
-    constructor(){
-        super();
-        this.name = "fonso"
-    }
+import Header from "./Header"
+import Footer from "./Footer"
 
+export default class Layout extends React.Component {
     render() {
         return(
-            <h1>It's {this.name}!</h1>
+            <div>
+                <Header />
+                <Footer />
+            </div>
         );
     }
 }
