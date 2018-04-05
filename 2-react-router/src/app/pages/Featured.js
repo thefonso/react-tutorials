@@ -20,11 +20,11 @@ export default class Featured extends React.Component {
         ].map((title, i) => <Article key={i} title={title}/> );
 
         const adText = [
-            "Ad spot #1",
-            "Ad spot #2",
-            "Ad spot #3",
-            "Ad spot #4",
-            "Ad spot #5",
+            "Ad spot #ONE",
+            "Ad spot #TWO",
+            "Ad spot #THREE",
+            "Ad spot #FOUR",
+            "Ad spot #FIVE",
         ];
 
         const randomAd = adText[Math.round( Math.random() * (adText.length-1) )];
