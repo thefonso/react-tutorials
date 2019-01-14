@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import { Router, Route, IndexRoute, hashHistory } from "react-router";
 
-import Bootstrap from "../../node_modules/bootstrap.native/dist/bootstrap-native"
+
 
 import Layout   from "./pages/Layout";
 import Featured from "./pages/Featured";
